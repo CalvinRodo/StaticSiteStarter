@@ -21,7 +21,7 @@ function startExpress() {
   gutil.log(EXPRESS_ROOT + ' served up on ' + EXPRESS_PORT);
 }
 
-gulp.task('default', ['clean', 'copy_resources', 'scripts-dev', 'server', 'watch'], function(){
+gulp.task('default', ['clean', 'scripts-dev', 'server', 'watch'], function(){
 });
 
 gulp.task('server', function(){
